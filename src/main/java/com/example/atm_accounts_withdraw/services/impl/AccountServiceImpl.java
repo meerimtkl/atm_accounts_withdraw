@@ -29,6 +29,12 @@ public class AccountServiceImpl implements AccountService {
         return accountRepo.findAllByClientId(id);
     }
 
+    @Override
+    public Account findByAccount(String account) {
+
+        return accountRepo.findByAccount(account);
+    }
+
 
 
 }

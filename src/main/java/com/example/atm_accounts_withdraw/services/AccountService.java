@@ -8,5 +8,6 @@ import java.util.List;
 public interface AccountService {
     Account save(Account account);
     List<Account> findByClient (Long id);
+    Account findByAccount (String account);
 
 }

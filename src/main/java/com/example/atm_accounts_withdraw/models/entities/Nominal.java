@@ -15,5 +15,5 @@ public class Nominal {
             @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     double nominal;
-    private int amount;
+    int amount;
 }
